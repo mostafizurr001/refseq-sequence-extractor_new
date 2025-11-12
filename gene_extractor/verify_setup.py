@@ -167,9 +167,9 @@ def test_utils():
         from utils import parse_gene_input, is_refseq_accession, nucleotide_counts
         
         # Test gene parsing
-        test_input = "BRCA1, TP53\\nEGFR"
+        test_input = "BRCA1, TP53\nEGFR"
         genes = parse_gene_input(test_input)
-        assert len(genes) == 3, "Gene parsing failed"
+        assert len(genes) == 3, f"Gene parsing failed: got {len(genes)} genes instead of 3"
         print("  ✅ Gene parsing works")
         
         # Test accession detection
