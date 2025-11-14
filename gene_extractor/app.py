@@ -1,7 +1,4 @@
-"""
-Enterprise-Grade NCBI RefSeq Multi-Gene Sequence Extractor
-Enhanced version with comprehensive features for production use
-"""
+
 
 import streamlit as st
 import pandas as pd
