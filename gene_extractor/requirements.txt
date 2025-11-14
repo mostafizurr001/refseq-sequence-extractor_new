@@ -7,7 +7,7 @@ numpy==1.26.3
 biopython==1.83
 
 # Data visualization
-plotly==5.18.0
+plotly
 
 # Excel support
 xlsxwriter==3.1.9
