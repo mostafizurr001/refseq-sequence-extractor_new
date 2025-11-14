@@ -1,17 +1,17 @@
 # Core dependencies
-streamlit==1.31.1
-pandas==2.2.0
-numpy==1.26.3
+streamlit
+pandas
+numpy
 
 # Bioinformatics
-biopython==1.83
+biopython
 
 # Data visualization
 plotly
 
 # Excel support
-xlsxwriter==3.1.9
-openpyxl==3.1.2
+xlsxwriter
+openpyxl
 
 # Database (sqlite3 is built-in with Python, no installation needed)
 
@@ -19,4 +19,4 @@ openpyxl==3.1.2
 # SMTP libraries are built-in with Python
 
 # Utilities
-python-dotenv==1.0.1
+python-dotenv
